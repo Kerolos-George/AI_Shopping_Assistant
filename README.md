@@ -31,18 +31,7 @@ The application follows a modular architecture with the following components:
 - DeepSeek API key
 
 ### Installation
-
-**Option 1: Automated Installation (Recommended)**
-```bash
-python install.py
-```
-
-**Option 2: Manual Installation**
-```bash
-pip install flask>=2.3.0 requests>=2.31.0 python-dotenv>=1.0.0 openai>=1.12.0
-```
-
-**Option 3: Using requirements.txt**
+**Option 1: Using requirements.txt**
 ```bash
 pip install -r requirements.txt
 ```
@@ -56,6 +45,15 @@ python app.py
 ```
 
 The API will be available at `http://localhost:5000`
+
+## Testing
+
+Run the test examples:
+```bash
+python test_examples.py
+```
+
+This will demonstrate all API functionality with example data.
 
 ## API Endpoints
 
@@ -114,16 +112,6 @@ GET /categories
 ```http
 GET /buyers
 ```
-
-## Testing
-
-Run the test examples:
-```bash
-python test_examples.py
-```
-
-This will demonstrate all API functionality with example data.
-
 ## Configuration
 
 Edit `config.py` to customize:
