@@ -1,0 +1,28 @@
+{
+  "A123": {
+    "user_id": "A123",
+    "history": [
+      {
+        "product": "Bluetooth headphones",
+        "category": "electronics",
+        "price": 120
+      },
+      {
+        "product": "Running shoes",
+        "category": "sportswear",
+        "price": 80
+      },
+      {
+        "product": "Blender",
+        "category": "kitchen",
+        "price": 70
+      },
+      {
+        "product": "Table Lamp",
+        "category": "home_decor",
+        "price": 40,
+        "date": "2025-06-11T02:16:32.432288"
+      }
+    ]
+  }
+}
